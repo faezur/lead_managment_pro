@@ -1,44 +1,56 @@
-# Smart Leads CRM
+# Lead Management Pro
 
-A full-stack Lead Management System built with React, TypeScript, Express, Prisma, and PostgreSQL.
+A full-stack Lead Management application built using React, TypeScript, Express, Prisma, and PostgreSQL.
 
 ## Features
 
-- Add new leads
-- Update lead status
-- Delete leads
-- Dashboard statistics
-- CSV export
-- Form validation
-- Responsive clean UI
+* Create, update, and delete leads
+* Lead status management
+* Responsive frontend UI
+* REST API integration
+* Prisma ORM with PostgreSQL
+* Form validation
+* Full-stack TypeScript setup
 
----
+## Tech Stack
 
-# Tech Stack
+### Frontend
 
-## Frontend
-- React
-- TypeScript
-- TailwindCSS
-- Axios
-- Zustand
+* React
+* TypeScript
+* Tailwind CSS
+* Axios
+* Vite
 
-## Backend
-- Express
-- TypeScript
-- Prisma ORM
-- PostgreSQL
-- Zod Validation
+### Backend
 
-## Database
-- PostgreSQL (Neon)
+* Node.js
+* Express.js
+* TypeScript
+* Prisma ORM
+* PostgreSQL
 
----
+## Project Structure
 
-# Local Setup
+```bash
+frontend/
+backend/
+```
 
-## Backend
+## Setup
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
 
 ```bash
 cd backend
 npm install
+npm run dev
+```
